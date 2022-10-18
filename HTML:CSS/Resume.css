@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body, h1, h2 {
+    margin: 0px;
+    padding: 0px;;
+}
+
+body {
+    min-width: fit-content;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.name-text {
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    border-bottom: 1px solid #9e9e9e;
+    padding-top: 30px;
+}
+
+.float-wrap {
+    overflow: hidden;
+}
+
+.title-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    float: right;
+}
+
+.year-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #707070;
+    float: left;
+}
+
+.desc-text {
+    font-size: 9px;
+}
+
+.desc-subtext {
+    font-size: 9px;
+    color: #000000;
+    padding-left: 16px;
+}
+
+.mainbox {
+    width: 610px;
+    margin: 30px auto 30px auto;
+    border: 3px groove #2AC1BC;
+    padding: 100px;
+    text-align: right;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.name-text {
+    font-size: 17px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.logo {
+    padding-top: 30px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    background-color: #2AC1BC;
+    color: #FFFFFF;
+    font-size: 12px;
+}
